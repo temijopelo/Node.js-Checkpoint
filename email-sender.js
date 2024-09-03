@@ -3,8 +3,8 @@ let email = require("nodemailer");
 let transport = email.createTransport({
   service: "gmail.com",
   auth: {
-    user: "temijeje@gmail.com",
-    pass: "fifehanmi20",
+    user: "",
+    pass: "",
   },
 });
 
